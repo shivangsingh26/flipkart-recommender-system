@@ -14,7 +14,7 @@ class DataIngestor:
         )
         self.vector_store = AstraDBVectorStore(
             embedding=self.embedding_model,
-            collection_name="db-flipkart-recommender-system",
+            collection_name="flipkart_database",
             api_endpoint=Config.ASTRA_DB_API_ENDPOINT,
             token=Config.ASTRA_DB_APPLICATION_TOKEN,
             namespace=Config.ASTRA_DB_KEYSPACE

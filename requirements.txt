@@ -1,0 +1,11 @@
+langchain
+langchain-astradb #for vectordb
+langchain-huggingface #for HuggingFaceEmbeddings
+langchain-groq # for accessing groq models
+langchain-community # for accessing community models
+datasets # for datasets
+pypdf # for PDF processing
+python-dotenv
+pandas # for data manipulation
+flask # for web framework
+prometheus_client # for metrics
